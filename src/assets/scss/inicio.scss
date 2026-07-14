@@ -7,6 +7,10 @@
 @use "./resources/artForm02";
 @use "./resources/moduloLoader01";
 
+@use "./resources/art02";
+@use "./resources/moduloBoton02";
+@use "./resources/art09";
+
 
 .art14{
     @media only screen and (min-width:c.$desktop){

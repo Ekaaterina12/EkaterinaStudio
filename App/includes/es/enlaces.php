@@ -32,25 +32,11 @@
         <img class="enlaces01__icon" src="<?= asset('assets/img/icons/boxes.svg') ?>" alt="">
         <span>Servicios</span>
       </a>
-      <button class="enlaces01__submenuToggle" type="button" aria-controls="<?= e($idSubmenu) ?>" aria-expanded="false" aria-label="Abrir submenú Servicios" data-nav01-submenu-toggle data-nav01-label-open="Abrir submenú" data-nav01-label-close="Cerrar submenú" data-nav01-submenu-label="Servicios">
+      <!-- <button class="enlaces01__submenuToggle" type="button" aria-controls="<?= e($idSubmenu) ?>" aria-expanded="false" aria-label="Abrir submenú Servicios" data-nav01-submenu-toggle data-nav01-label-open="Abrir submenú" data-nav01-label-close="Cerrar submenú" data-nav01-submenu-label="Servicios">
         <img class="enlaces01__chevron" src="<?= asset('assets/img/icons/chevron.svg') ?>" alt="">
-      </button>
+      </button> -->
     </div>
 
-    <ul class="enlaces01__submenu" id="<?= e($idSubmenu) ?>" data-nav01-submenu>
-      <li class="enlaces01__item">
-        <a class="enlaces01__link enlaces01__link--child" href="/es/servicios/pintor">
-          <img class="enlaces01__icon" src="<?= asset('assets/img/icons/tag.svg') ?>" alt="">
-          <span>Pintor</span>
-        </a>
-      </li>
-      <li class="enlaces01__item">
-        <a class="enlaces01__link enlaces01__link--child" href="/es/servicios/restaurador-muebles">
-          <img class="enlaces01__icon" src="<?= asset('assets/img/icons/spark.svg') ?>" alt="">
-          <span>Restaurador de muebles</span>
-        </a>
-      </li>
-    </ul>
   </li>
 
   <li class="enlaces01__item">
