@@ -15,7 +15,7 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header01">
-      <img class="header01__media" src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+      <img class="header01__media" src="<?= asset('assets/img/views/img-blancoynegro.webp') ?>" alt="sessión de fotos en pareja">
       <div class="header01__content">
         
         <h1>Fotógrafo de bodas en Guipúzcoa</h1>
@@ -39,15 +39,15 @@
 
                   <!-- <a href="" class="boton">Más info</a> -->
                   <a href="" class="moduloBoton02">
-                      <span>Escribenos</span>
+                      <span>Saber más</span>
                       <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
                   </a>
               </div>
 
               <div class="imagenes">
-                  <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" title="">
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix" title="">
-                  <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-vestido.webp') ?>" alt="Escena de Matrix" title="">
               </div>
 
           </article>
@@ -114,6 +114,44 @@
                   </ul>
                   </div>
 
+              </div>
+
+          </article>
+        </section>
+
+        <section>
+            <article class="art11">
+              
+              <div>
+                  <img src="<?= asset('assets/img/views/camara-fotos.webp') ?>" alt="Escena de Matrix">
+              </div>
+
+              <div>
+                  <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Escena de Matrix">
+              </div>
+
+              <div>
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Escena de Matrix">
+              </div>
+
+              <div>
+                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Escena de Matrix">
+              </div>
+
+              <div>
+                  <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Escena de Matrix">
+              </div>
+
+              <div>
+                  <img src="<?= asset('assets/img/views/sesion-fotos-espejo.webp') ?>" alt="Escena de Matrix">
+              </div>
+
+              <div>
+                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Escena de Matrix">
+              </div>
+
+              <div>
+                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Escena de Matrix">
               </div>
 
           </article>

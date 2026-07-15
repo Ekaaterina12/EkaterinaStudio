@@ -14,7 +14,7 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header02">
-        <img class="header02__media" src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix">
+        <img class="header02__media" src="<?= asset('assets/img/views/img-anillos.webp') ?>" alt="Sesion de fotos de anillos">
             <div class="header02__content">
             
             <h1 class="header02__title">Contacto fotógrafo de bodas en Guipúzcoa</h1>
@@ -27,12 +27,12 @@
 
     <section>
         <article class="art12">
-            <h2>Cómo trabajamos</h2>
-            <p>Sabemos que organizar una boda implica cuidar muchos detalles, por eso hemos creado una forma de trabajar sencilla, cercana y profesional. Nuestro objetivo es acompañaros durante todo el proceso para que tengáis la tranquilidad de que cada momento importante quedará registrado de la mejor manera.</p>
+            <h2>Paso a paso de cómo trabajamos</h2>
+            <p class="espacial">Sabemos que organizar una boda implica cuidar muchos detalles, por eso hemos creado una forma de trabajar sencilla, cercana y profesional. Nuestro objetivo es acompañaros durante todo el proceso para que tengáis la tranquilidad de que cada momento importante quedará registrado de la mejor manera.</p>
         
               <div>
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Sesión de fotos pareja" title="">
                   <div>
                       <h3>1. Primer contacto y reunión</h3>
                       <p>Todo comienza con una conversación. Queremos conoceros, saber cómo imagináis vuestra boda y entender qué momentos son importantes para vosotros.</p>
@@ -40,7 +40,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Pareja en el castillo" title="">
                   <div>
                       <h3>2. Reserva de la fecha</h3>
                       <p>Una vez decidís contar con nosotros, formalizamos la reserva de vuestra boda para asegurar nuestra disponibilidad ese día.</p>
@@ -48,7 +48,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-beso.webp') ?>" alt="casamiento pareja" title="">
                   <div>
                       <h3>3. Planificación personalizada</h3>
                       <p>Cada boda es diferente, por eso dedicamos tiempo a conocer todos los detalles del día.</p>
@@ -57,7 +57,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="sesión de fotos pareja" title="">
                   <div>
                       <h3>4. El día de la boda</h3>
                       <p>Llegamos preparados para capturar cada instante de vuestra boda de forma discreta y profesional.</p>
@@ -66,7 +66,7 @@
                   </div>
 
                 <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Pareja en el barco" title="">
                   <div>
                       <h3>5. Entrega del reportaje</h3>
                       <p>Finalmente recibiréis vuestro reportaje de boda preparado con todo el cuidado que merece.</p>

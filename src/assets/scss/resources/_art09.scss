@@ -60,7 +60,7 @@
                 padding: 3rem;
             }
             &:hover{
-                background-color: c.$color02bis;
+                background-color: c.$color01;
                 transform: scale(1.02);
                 >:nth-child(1){
                     color: c.$color00;
@@ -70,7 +70,7 @@
                         filter: c.$color00svg;
                     }
                     span{
-                        color: c.$color00;
+                        color: c.$color02;
                     }
                 } 
             }

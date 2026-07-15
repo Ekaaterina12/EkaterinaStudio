@@ -23,22 +23,35 @@
 
 
 // Variables del proyecto
+$fuenteprincipal: "Cormorant Garamond", serif;
 $fuenteTitulos:'Montserrat';
 $fuenteTextos:'Montserrat';
 
 
 
-$color00: white;
+//
 $color00svg: invert(100%) sepia(100%) saturate(0%) hue-rotate(159deg) brightness(104%) contrast(104%);
-$color00bis: #ebebeb;
-$color01: #1e1e1e;
+$color00bis: #ffffff;
+
 $color01bis:rgb(176, 176, 176);
 $color01bis2: rgba(0, 0, 0, 0.5);
 $color02: #234b66;
 $color02bis: #234b66;
 $color02svg: invert(24%) sepia(13%) saturate(2279%) hue-rotate(161deg) brightness(96%) contrast(88%);
-$color03: #d47523;
-$color03svg: invert(39%) sepia(100%) saturate(384%) hue-rotate(346deg) brightness(102%) contrast(91%);
+
+$color03svg: invert(85%) sepia(13%) saturate(433%) hue-rotate(350deg) brightness(94%) contrast(87%);
+
+
+//mios
+$color00: rgb(255, 255, 255);
+$color01:#DED0C1;
+$color02: rgba(0, 0, 0, 0.5);
+$color03: #c7b4a0;
+$color04: #ffffff;
+$color05:#aa8d6e;
+$color06: #F5F2EB;
+$color07: #4C4D4F;
+
 
 
 
@@ -68,19 +81,20 @@ html{
 
 
 // Aquí estilos de los encabezados h1, h2, h3, etc y de los textos
-h1, h2, h3{
+h2, h3{
     font-family: $fuenteTitulos;
 }
 
 h1{
-    font-size: clamp(2rem, 6vw, 8rem);
+    font-family: $fuenteprincipal;
     text-align: center;     
-    color: $color02;
+    color: $color01;
     letter-spacing: 10px;
-    width: 90%;    
+    width: 90%;   
 }
 h2{
-    color: $color01bis;
+    color: $color01;
+    text-align: center;
     font-size: 3rem;
     letter-spacing: 4px;
 }
@@ -96,14 +110,24 @@ h4{
     letter-spacing: 2px;
     font-weight: 600;
 }
-p, span, label{
+span, label{
     font-family: $fuenteTextos;
-    color: $color01;
+    color: $color02;
+    
+}
+p{
+    font-family: $fuenteTextos;
+    color: $color02;
 }
 a{
     font-family: $fuenteTextos;      
     text-decoration: none;
 }
+
+.espacial{
+    text-align: center;
+}
+
 
 .h2Especial{
     // los estilos de la caja donde dentro estarán tanto el span (ralla) como el h2
@@ -137,11 +161,11 @@ a{
 .boton{
     padding: 0.7rem 4rem;
     color: $color00;  
-    background-color: $color02;
+    background-color: $color01;
     border-radius: 5px;
     letter-spacing: 3px;
     font-weight: 600;
-    border: 1px solid $color00;
+    border: 1px solid $color01;
     transition: 0.3s;
     &:hover{
         background-color: $color00;

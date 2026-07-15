@@ -10,10 +10,23 @@
 @use "./resources/art02";
 @use "./resources/moduloBoton02";
 @use "./resources/art09";
+@use "./resources/art11";
+
 
 
 .art14{
     @media only screen and (min-width:c.$desktop){
         width: 60%;
     }
+}
+
+h1{
+    color: c.$color01;
+}
+
+
+p{
+    font-family: c.$fuenteTextos;
+    text-align: center; 
+    color:black;
 }

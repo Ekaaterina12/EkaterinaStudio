@@ -14,10 +14,10 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
       <header class="header02">
-        <img class="header02__media" src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix">
+        <img class="header02__media" src="<?= asset('assets/img/views/img-iglesia.webp') ?>" alt="Sesión en la iglesia">
             <div class="header02__content">
             
-            <h1 class="header02__title">Nuestros servicios de fotografía de bodas en Guipúzcoa</h1>
+            <h1 class="header02__title">Nuestros servicios en Guipúzcoa</h1>
             <p class="header02__text">Nuestros servicios de fotografía y vídeo de bodas están pensados para contar vuestra historia tal y como la vivís. Capturamos cada emoción, cada mirada y cada detalle de vuestro día con un estilo natural, cercano y profesional.</p>
             <a href="#showroom-recursos" class="boton">Contactanos</a>
         </div>
@@ -28,10 +28,10 @@
     <section>
       <article class="art12">
         <h2>El proceso para crear vuestras fotografías de boda</h2>
-            <p>Nuestro servicio de fotografía de bodas está pensado para capturar cada etapa del día con un estilo natural, elegante y personalizado.</p>
+            <p class="espacial">Nuestro servicio de fotografía de bodas está pensado para capturar cada etapa del día con un estilo natural, elegante y personalizado. Desde los preparativos hasta la celebración final, nos encargamos de inmortalizar cada emoción, cada mirada y cada pequeño detalle que hace que vuestra historia sea única. Trabajamos de forma cercana y discreta para crear imágenes auténticas, llenas de sensibilidad y capaces de transmitir la esencia de uno de los días más importantes de vuestra vida.</p>
               <div>
                 <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Sesión de fotos beso" title="">
                   <div>
                       <h3>Preparativos</h3>
                       <p>Los primeros nervios, las sonrisas, los detalles del vestido, los últimos retoques y los momentos compartidos con familiares y amigos forman parte de una historia que empieza mucho antes de la ceremonia.</p>
@@ -40,7 +40,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/sesion-pareja-iglesia.webp') ?>" alt="Sesion de fotos novios" title="">
                   <div>
                       <h3>Ceremonia</h3>
                       <p>La ceremonia es uno de los momentos más importantes de vuestro día. Capturamos cada emoción, gesto y mirada para conservar todos los recuerdos de ese instante tan especial.</p>
@@ -48,7 +48,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-mesa.webp') ?>" alt="Banquete mesa sesión" title="">
                   <div>
                       <h3>Banquete</h3>
                       <p>La celebración, los brindis, las risas y los momentos compartidos con vuestros invitados forman parte esencial del reportaje de boda.</p>
@@ -57,7 +57,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Sesion de fotos en el castillo novios" title="">
                   <div>
                       <h3>Sesión de pareja</h3>
                       <p>Creamos un espacio tranquilo para disfrutar juntos y conseguir fotografías naturales que reflejen vuestra conexión como pareja.</p>
@@ -71,11 +71,11 @@
     <section>
       <article class="art12">
         <h2>El proceso para crear vuestro vídeo de boda</h2>
-            <p>Un vídeo permite volver a escuchar las voces, sentir las emociones y revivir cada instante de una forma única.</p>
-            <p>Creamos vídeos de boda personalizados cuidando tanto la grabación como la edición final.</p>
+            <p class="espacial">Un vídeo permite volver a escuchar las voces, sentir las emociones y revivir cada instante de una forma única. Capturamos los pequeños detalles, las miradas, las sonrisas y esos momentos espontáneos que hacen que cada celebración sea diferente. A través de una edición cuidada y una narrativa cinematográfica, creamos un recuerdo que no solo muestra lo que ocurrió, sino que transmite las sensaciones vividas durante ese día tan especial.</p>
+            <p class="espacial">Creamos vídeos de boda personalizados cuidando tanto la grabación como la edición final. Cada historia es única, por eso trabajamos con una mirada cercana y profesional para capturar los momentos más importantes de vuestro día.</p>
               <div>
                 <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/sesion-boda.webp') ?>" alt="Equipo trabajando grabación" title="Equipo trabajando grabación">
                   <div>
                       <h3>Grabación</h3>
                       <p>Capturamos los momentos más importantes de la boda con una realización profesional, prestando atención tanto a los grandes momentos como a los pequeños detalles.</p>
@@ -84,7 +84,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/sesion-fotos-espejo.webp') ?>" alt="Sesion fotos vestido y complementos" title="Sesion fotos vestido y complementos">
                   <div>
                       <h3>Edición</h3>
                       <p>La edición es una parte fundamental para transformar todas las imágenes grabadas en una historia audiovisual con ritmo, emoción y personalidad.</p>
@@ -92,7 +92,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/dron-boda.webp') ?>" alt="Dron grababando en la boda" title="Dron grababando en la boda">
                   <div>
                       <h3>Drone</h3>
                       <p>La grabación aérea permite mostrar una perspectiva diferente del lugar de celebración y aportar imágenes espectaculares al vídeo final.</p>
@@ -101,7 +101,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Trailer de la boda" title="Trailer de la boda">
                   <div>
                       <h3>Tráiler</h3>
                       <p>Creamos piezas breves y emocionantes que resumen la esencia de vuestra boda y os permiten compartir los mejores momentos.</p>
@@ -118,22 +118,22 @@
 
         <article class="artGrid">
           <div>
-            <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+            <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="pareja en el castillo sesión">
           </div>
           <div>
-            <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix">
+            <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Sesión de pareja en el coche">
           </div>
           <div>
-            <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
+            <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Sesion de vestido">
           </div>
           <div>
-            <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
+            <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Novia corriendo por la playa sesion">
           </div>
           <div>
-            <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+            <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="video de la boda">
           </div>
           <div>
-            <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix">
+            <img src="<?= asset('assets/img/views/img-pareja-andando.webp') ?>" alt="Sesión de la pareja andando">
           </div>
         </article>
 

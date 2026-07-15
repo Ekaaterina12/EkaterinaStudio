@@ -7,7 +7,7 @@
   padding: 7rem c.$padMin 4rem;
   overflow: hidden;
   isolation: isolate;
-  background-color: c.$color01;
+  background-color: c.$color04;
   display: grid;
   place-items: center;
 
@@ -16,7 +16,7 @@
     position: absolute;
     inset: 0;
     z-index: -1;
-    background-color: rgba(c.$color01, 0.68);
+    background-color: rgba(c.$color04, 0.68);
   }
 
   &__media {
@@ -54,6 +54,7 @@
     font-size: 2.75rem;
     line-height: 1;
     letter-spacing: 0;
+    color: c.$color02;
 
     @media only screen and (min-width: c.$tablet) {
       font-size: 4.5rem;
@@ -67,7 +68,7 @@
   &__text {
     max-width: 58ch;
     margin: 0;
-    color: c.$color00;
+    color: c.$color02;
     font-size: 1.1rem;
     line-height: 1.6;
   }

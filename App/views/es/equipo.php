@@ -16,7 +16,7 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
       <header class="header02">
-        <img class="header02__media" src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix">
+        <img class="header02__media" src="<?= asset('assets/img/views/img2.webp') ?>" alt="Pareja sesión">
         <div class="header02__content">
           <h1 class="header02__title">Quienes somos</h1>
           <p class="header02__text">Nos dedicamos a la fotografía y vídeo de bodas con una filosofía basada en la cercanía, la naturalidad y el cuidado por cada detalle.</p>
@@ -31,11 +31,9 @@
         <article class="art05">
             <h2>Nuestra experiencia</h2>
             
-            <p>Nuestra experiencia en bodas nos permite conocer la importancia de cada momento y adaptarnos al ritmo de cada celebración.</p>
-            
-            <p>Trabajamos con discreción y profesionalidad para que disfrutéis de vuestro día mientras nosotros nos encargamos de capturar cada emoción: las miradas, las sonrisas, los abrazos y todos esos pequeños detalles que hacen especial vuestra boda.</p>
-            
-            <p>Realizamos reportajes de boda en Guipúzcoa y diferentes localizaciones del País Vasco, desplazándonos hasta el lugar elegido por cada pareja para contar su historia.
+            <p class= "espacial">Nuestra experiencia en bodas nos permite conocer la importancia de cada momento y adaptarnos al ritmo de cada celebración.</p>
+            <p class="espacial">Trabajamos con discreción y profesionalidad para que disfrutéis de vuestro día mientras nosotros nos encargamos de capturar cada emoción: las miradas, las sonrisas, los abrazos y todos esos pequeños detalles que hacen especial vuestra boda.</p>
+            <p class="espacial">Realizamos reportajes de boda en Guipúzcoa y diferentes localizaciones del País Vasco, desplazándonos hasta el lugar elegido por cada pareja para contar su historia.
               Conocemos la importancia del entorno y aprovechamos cada espacio para crear imágenes únicas, combinando la belleza de los escenarios con una fotografía cuidada y emocional.
             </p>
             
@@ -48,35 +46,35 @@
           <article class="art11">
               
               <div>
-                  <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-beso.webp') ?>" alt="sesión de pareja beso">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="novia sesion en la playa">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Sesión en el castillo novios">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Pareja sesion">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Sesión de fotos en el barco">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/test/dummy02.avif') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Sesión de fotos en el coche">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img2.webp') ?>" alt="Sesión de fotos ramo de flores">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Sesion de fotos tocando el vestido">
               </div>
 
           </article>

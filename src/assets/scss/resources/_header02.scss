@@ -7,7 +7,7 @@
   padding: 6rem c.$padMin 3rem;
   overflow: hidden;
   isolation: isolate;
-  background-color: c.$color02;
+  background-color: c.$color07;
   display: flex;
   align-items: flex-end;
 
@@ -16,7 +16,7 @@
     position: absolute;
     inset: 0;
     z-index: -1;
-    background-color: rgba(c.$color02, 0.78);
+    background-color: rgba(c.$color07, 0.78);
   }
 
   &__media {

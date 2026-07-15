@@ -34,7 +34,7 @@
 
         .ficha{
             width: 300px;
-            background-color: c.$color00bis;
+            background-color: c.$color06;
             padding: c.$padMin;
             border-radius: 10px;
             display: flex;
@@ -63,7 +63,7 @@
                     text-align: left;                                     
                 }
                 :nth-last-child(1){
-                    color:c.$color01bis;
+                    color:c.$color02;
                 }
             }
 
