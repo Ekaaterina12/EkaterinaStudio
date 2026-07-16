@@ -27,18 +27,18 @@
       <address class="footer01__address">
         <a class="footer01__link" href="tel:+34000000000">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/phone.svg') ?>" alt="">
-          <span>+34 000 000 000</span>
+          <span>+34 943 675 456</span>
         </a>
         <a class="footer01__link" href="mailto:hola@ejemplo.com">
-          <img class="footer01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="">
-          <span>hola@ejemplo.com</span>
+          <img class="footer01__icon" src="<?= asset('assets/img/icons/email.svg') ?>" alt="">
+          <span>Katyestudio@gmail.com</span>
         </a>
         <a class="footer01__link" href="https://www.google.com/maps/search/?api=1&query=Calle+Ejemplo+1" target="_blank" rel="noopener noreferrer">
-          <img class="footer01__icon" src="<?= asset('assets/img/icons/map.svg') ?>" alt="">
+          <img class="footer01__icon" src="<?= asset('assets/img/icons/mapa.svg') ?>" alt="">
           <span>Ver en Google Maps</span>
         </a>
         <p class="footer01__text">
-          <img class="footer01__icon" src="<?= asset('assets/img/icons/pin.svg') ?>" alt="">
+          <img class="footer01__icon" src="<?= asset('assets/img/icons/calle.svg') ?>" alt="">
           <span>Calle Ejemplo 1, 00000 Ciudad</span>
         </p>
       </address>
@@ -46,6 +46,6 @@
   </div>
 
   <div class="footer01__bottom">
-    <p>Desarrollado por xxxx. &copy; <?= date('Y') ?> Todos los derechos reservados.</p>
+    <p>Desarrollado por KatyStudio &copy; <?= date('Y') ?> Todos los derechos reservados.</p>
   </div>
 </footer>

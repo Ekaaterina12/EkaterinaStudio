@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/productos') ?>">
-    <title>Nuestros productos de panaderia y pasteleria</title>
+    <title>Nuestros servicios</title>
     <meta name="description" content="Descubre nuestros productos de panaderia, pasteleria, bolleria y especialidades artesanas.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,6 +65,114 @@
                   </div>
                   </div>
               </div>
+          </article>
+    </section>
+
+    <section>
+        <!-- artículo 09 -->
+          <article class="art09">
+
+              <h2>Nuestros precios</h2>
+
+              <div class="art09-content">
+
+                  <div class="contenedor-lista">
+                  <h3>Sesión de fotografia</h3>
+                  <ul>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Cobertura desde los preparativos hasta la celebración.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Reportaje fotográfico completo del día.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Captura de los momentos más importantes y de los pequeños detalles.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Entrega de las fotografías en alta resolución.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Álbum de boda y copias impresas (opcional).</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Precio total: 3.450€</span>
+                      </li>
+                  </ul>
+                  </div>
+
+                  <div class="contenedor-lista">
+                  <h3>¿Qué incluye nuestro servicio de vídeo?</h3>
+                  <ul>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Cobertura completa de la boda.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Vídeo cinematográfico y natural.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Edición profesional.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Tráiler con los mejores momentos.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Película completa de la boda.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Película completa de la boda.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Precio total: 4.030€</span>
+                      </li>
+                  </ul>
+                  </div>
+
+                    <div class="contenedor-lista">
+                        <h3>Sesión de fotografía + vídeo</h3>
+                    <ul>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Cobertura completa de fotografía y vídeo.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Captura de cada momento desde todos los ángulos.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Reportaje fotográfico y vídeo cinematográfico.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Edición profesional de fotografías y vídeo.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Galería privada online y entrega digital en alta resolución.</span>
+                      </li>
+                      <li>
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <span>Precio total: 6.590€</span>
+                      </li>
+                  </ul>
+                  </div>
+
+
+              </div>
+
           </article>
     </section>
 
@@ -274,19 +382,19 @@
                         <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
                             <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
-                            <span>aranaz@webda.eus</span>
+                            <span>KatyStudio@gmail.com</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://wa.me/628749350" target="_blank">
                             <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
-                            <span>628 749 350</span>
+                            <span>628 456 467</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
                             <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
-                            <span>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia / San Sebastián, Gipuzkoa</span>
+                            <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                         </a>
                         </li>
                     </ul>

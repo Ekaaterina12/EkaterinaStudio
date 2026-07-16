@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/') ?>">
-    <title>Nuestra panaderia</title>
+    <title>KatyStudio</title>
     <meta name="description" content="Panaderia y pasteleria artesana con panes, bolleria y productos recien hechos.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -287,13 +287,13 @@
                         <li>
                         <a href="tel:+34943123123" target="_blank">
                             <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="">
-                            <span>943 123 123</span>
+                            <span>943 458 876</span>
                         </a>
                         </li>
                         <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
                             <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
-                            <span>aranaz@webda.eus</span>
+                            <span>KatyStudio@gmail.com</span>
                         </a>
                         </li>
                         <li>
@@ -305,7 +305,7 @@
                         <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
                             <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
-                            <span>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia / San Sebastián, Gipuzkoa</span>
+                            <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                         </a>
                         </li>
                     </ul>

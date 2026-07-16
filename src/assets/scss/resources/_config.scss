@@ -21,11 +21,22 @@
     src: url('../../fonts/Montserrat-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Parisienne';
+    src: url('../../fonts/Parisienne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'cormorant Garamond';
+    src: url('../../fonts/CormorantGaramond-Italic-VariableFont_wght.ttf');
+}
+
 
 // Variables del proyecto
 $fuenteprincipal: "Cormorant Garamond", serif;
 $fuenteTitulos:'Montserrat';
 $fuenteTextos:'Montserrat';
+$fuentedos: "Parisienne";
 
 
 
@@ -39,7 +50,8 @@ $color02: #234b66;
 $color02bis: #234b66;
 $color02svg: invert(24%) sepia(13%) saturate(2279%) hue-rotate(161deg) brightness(96%) contrast(88%);
 
-$color03svg: invert(85%) sepia(13%) saturate(433%) hue-rotate(350deg) brightness(94%) contrast(87%);
+//mios
+$color03svg: invert(85%) sepia(16%) saturate(345%) hue-rotate(350deg) brightness(84%) contrast(91%);
 
 
 //mios
@@ -97,6 +109,8 @@ h2{
     text-align: center;
     font-size: 3rem;
     letter-spacing: 4px;
+    font-family: $fuentedos;
+
 }
 h3{
     color: $color02;

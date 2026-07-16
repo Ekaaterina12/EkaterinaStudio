@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/contacto') ?>">
-    <title>Contacta con nuestra panaderia</title>
+    <title>Contacta con nosotros</title>
     <meta name="description" content="Contacta con nuestra panaderia para consultas, pedidos y encargos de panaderia y pasteleria.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,8 +78,48 @@
     </section>
 
     <section>
+        <!-- artículo 05 -->
+        <article class="art05">
+            <h2>¿Hablamos de vuestra boda?</h2>
+            <p class="espacial">Nuestro equipo estará encantado de escuchar vuestra historia, conocer cómo imagináis vuestro gran día y resolver cualquier duda que tengáis. Contadnos vuestra   propuesta, la fecha de la boda y todos esos detalles que hacen que vuestro día sea único. Nos pondremos en contacto con vosotros para comprobar la disponibilidad y empezar a preparar juntos un recuerdo inolvidable.</p>
+            <p class="espacial">Creemos que la confianza y la cercanía son fundamentales para conseguir un reportaje auténtico, por eso queremos conoceros desde el primer momento y acompañaros durante todo el proceso. Estamos deseando formar parte de uno de los días más importantes de vuestra vida y convertir cada instante en un recuerdo que perdure para siempre.</p>
+            <a href="" class="boton">Ver todos los servicios</a>
+        </article>
+
+    </section>
+
+    <section>
+        <section id="section5">
+        <h2 data-lang="encabezado">Trabajos realizados</h2>
+
+        <article class="artGrid">
+          <div>
+            <img src="<?= asset('assets/img/views/img-anillos.webp') ?>" alt="Sesion de anillos">
+          </div>
+          <div>
+            <img src="<?= asset('assets/img/views/img2.webp') ?>" alt="Sesion de pareja">
+          </div>
+          <div>
+            <img src="<?= asset('assets/img/views/img-vestido.webp') ?>" alt="seison de fotografia de vestido">
+          </div>
+          <div>
+            <img src="<?= asset('assets/img/views/img-blancoynegro2.webp') ?>" alt="Sesion de pareja en blanco y negro">
+          </div>
+          <div>
+            <img src="<?= asset('assets/img/views/camara-fotos.webp') ?>" alt="Camara de fotos">
+          </div>
+          <div>
+            <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Sesion de pareja">
+          </div>
+        </article>
+
+       
+      </section>
+    </section>
+
+    <section>
            
-            <!-- artForm02 ajax -->
+    <!-- artForm02 ajax -->
         <article class="artForm02">          
 
             <h2>Contacta con nosotros</h2>
@@ -213,19 +253,19 @@
                         <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
                             <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
-                            <span>aranaz@webda.eus</span>
+                            <span>KatyStudio@gmail.com</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://wa.me/628749350" target="_blank">
                             <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
-                            <span>628 749 350</span>
+                            <span>628 456 350</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
                             <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
-                            <span>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia / San Sebastián, Gipuzkoa</span>
+                            <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                         </a>
                         </li>
                     </ul>

@@ -24,7 +24,7 @@
         // cómo organiza a los hijos
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
         justify-content: flex-start;
         row-gap: 5rem;
         @media only screen and (min-width:c.$tablet){
@@ -54,10 +54,12 @@
             @media only screen and (min-width:c.$tablet){
                 border-radius: 15px;
                 padding: 2.5rem;
+                
             }
             @media only screen and (min-width:c.$desktop){
                 border-radius: 15px;
                 padding: 3rem;
+                
             }
             &:hover{
                 background-color: c.$color01;

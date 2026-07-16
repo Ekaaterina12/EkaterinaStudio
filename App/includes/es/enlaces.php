@@ -6,21 +6,21 @@
 <ul class="enlaces01">
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="/es">
-      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/home.svg') ?>" alt="">
+      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/home2.svg') ?>" alt="">
       <span>Inicio</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="/es/contacto">
-      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="">
+      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/email.svg') ?>" alt="">
       <span>Contacto</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="/es/quienes-somos">
-      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/users.svg') ?>" alt="">
+      <img class="enlaces01__icon" src="<?= asset('assets/img/icons/team-outlined.svg') ?>" alt="">
       <span>Quiénes somos</span>
     </a>
   </li>
@@ -29,8 +29,8 @@
   <li class="enlaces01__item enlaces01__item--hasSubmenu" data-nav01-submenu-item>
     <div class="enlaces01__submenuHeader">
       <a class="enlaces01__link enlaces01__link--parent" href="/es/servicios">
-        <img class="enlaces01__icon" src="<?= asset('assets/img/icons/boxes.svg') ?>" alt="">
-        <span>Servicios</span>
+        <img class="enlaces01__icon" src="<?= asset('assets/img/icons/design-services-outline.svg') ?>" alt="">
+        <span>Nuestros servicios</span>
       </a>
       <!-- <button class="enlaces01__submenuToggle" type="button" aria-controls="<?= e($idSubmenu) ?>" aria-expanded="false" aria-label="Abrir submenú Servicios" data-nav01-submenu-toggle data-nav01-label-open="Abrir submenú" data-nav01-label-close="Cerrar submenú" data-nav01-submenu-label="Servicios">
         <img class="enlaces01__chevron" src="<?= asset('assets/img/icons/chevron.svg') ?>" alt="">
@@ -38,7 +38,7 @@
     </div>
 
   </li>
-
+<!-- //para quitar el showroom -->
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="/showroom">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/grid.svg') ?>" alt="">
@@ -46,3 +46,4 @@
     </a>
   </li>
 </ul>
+

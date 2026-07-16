@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/quienes-somos') ?>">
-    <title>Nuestro equipo de panaderos y pasteleros</title>
+    <title>Quienes somos</title>
     <meta name="description" content="Conoce al equipo de panaderos y pasteleros que trabaja cada dia en nuestro obrador.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -216,7 +216,7 @@
                         <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
                             <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
-                            <span>aranaz@webda.eus</span>
+                            <span>KatyStudio@gmail.com</span>
                         </a>
                         </li>
                         <li>
@@ -228,7 +228,7 @@
                         <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
                             <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
-                            <span>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia / San Sebastián, Gipuzkoa</span>
+                            <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                         </a>
                         </li>
                     </ul>
