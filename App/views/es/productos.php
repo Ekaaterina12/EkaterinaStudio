@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/productos') ?>">
-    <title>Nuestros servicios</title>
-    <meta name="description" content="Descubre nuestros productos de panaderia, pasteleria, bolleria y especialidades artesanas.">
+    <title>Fotógrafos de bodas en Guipúzcoa | Nuestros servicios</title>
+    <meta name="description" content="Servicios de fotografía y vídeo de bodas en Guipúzcoa. Reportajes naturales, emotivos y personalizados.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -13,13 +13,13 @@
   <body>
     <?php require app_path('includes/es/nav.php'); ?>
 
-      <header class="header02">
-        <img class="header02__media" src="<?= asset('assets/img/views/img-iglesia.webp') ?>" alt="Sesión en la iglesia">
+    <header class="header02">
+        <img class="header02__media" src="<?= asset('assets/img/views/img-iglesia.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en una iglesia">
             <div class="header02__content">
             
-            <h1 class="header02__title">Nuestros servicios en Guipúzcoa</h1>
+            <h1 class="header02__title">Fotografía y vídeo de bodas en Guipúzcoa</h1>
             <p class="header02__text">Nuestros servicios de fotografía y vídeo de bodas están pensados para contar vuestra historia tal y como la vivís. Capturamos cada emoción, cada mirada y cada detalle de vuestro día con un estilo natural, cercano y profesional.</p>
-            <a href="#showroom-recursos" class="boton">Contactanos</a>
+            <a href="#formulario" class="boton">Contáctanos</a>
         </div>
     </header>
 
@@ -27,11 +27,11 @@
 
     <section>
       <article class="art12">
-        <h2>El proceso para crear vuestras fotografías de boda</h2>
+        <h2>El proceso de vuestro reportaje fotográfico</h2>
             <p class="espacial">Nuestro servicio de fotografía de bodas está pensado para capturar cada etapa del día con un estilo natural, elegante y personalizado. Desde los preparativos hasta la celebración final, nos encargamos de inmortalizar cada emoción, cada mirada y cada pequeño detalle que hace que vuestra historia sea única. Trabajamos de forma cercana y discreta para crear imágenes auténticas, llenas de sensibilidad y capaces de transmitir la esencia de uno de los días más importantes de vuestra vida.</p>
               <div>
                 <div class="ficha">
-                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Sesión de fotos beso" title="">
+                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Pareja de novios durante una sesión fotográfica" title="Pareja de novios durante una sesión fotográfica">
                   <div>
                       <h3>Preparativos</h3>
                       <p>Los primeros nervios, las sonrisas, los detalles del vestido, los últimos retoques y los momentos compartidos con familiares y amigos forman parte de una historia que empieza mucho antes de la ceremonia.</p>
@@ -40,7 +40,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/views/sesion-pareja-iglesia.webp') ?>" alt="Sesion de fotos novios" title="">
+                  <img src="<?= asset('assets/img/views/sesion-pareja-iglesia.webp') ?>" alt="Novios durante la ceremonia de boda" title="Novios durante la ceremonia de boda">
                   <div>
                       <h3>Ceremonia</h3>
                       <p>La ceremonia es uno de los momentos más importantes de vuestro día. Capturamos cada emoción, gesto y mirada para conservar todos los recuerdos de ese instante tan especial.</p>
@@ -48,7 +48,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/views/img-mesa.webp') ?>" alt="Banquete mesa sesión" title="">
+                  <img src="<?= asset('assets/img/views/img-mesa.webp') ?>" alt="Mesa preparada para la celebración de una boda" title="Mesa preparada para la celebración de una boda">
                   <div>
                       <h3>Banquete</h3>
                       <p>La celebración, los brindis, las risas y los momentos compartidos con vuestros invitados forman parte esencial del reportaje de boda.</p>
@@ -57,7 +57,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Sesion de fotos en el castillo novios" title="">
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en un castillo" title="Pareja de novios durante una sesión fotográfica en un castillo">
                   <div>
                       <h3>Sesión de pareja</h3>
                       <p>Creamos un espacio tranquilo para disfrutar juntos y conseguir fotografías naturales que reflejen vuestra conexión como pareja.</p>
@@ -72,12 +72,12 @@
         <!-- artículo 09 -->
           <article class="art09">
 
-              <h2>Nuestros precios</h2>
+              <h2>Nuestros packs de boda</h2>
 
               <div class="art09-content">
 
                   <div class="contenedor-lista">
-                  <h3>Sesión de fotografia</h3>
+                  <h3>Sesión de fotografía</h3>
                   <ul>
                       <li>
                       <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
@@ -107,7 +107,7 @@
                   </div>
 
                   <div class="contenedor-lista">
-                  <h3>¿Qué incluye nuestro servicio de vídeo?</h3>
+                  <h3>Servicio de vídeo</h3>
                   <ul>
                       <li>
                       <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
@@ -131,7 +131,7 @@
                       </li>
                       <li>
                       <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Película completa de la boda.</span>
+                      <span>Entrega digital en alta calidad.</span>
                       </li>
                       <li>
                       <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
@@ -200,7 +200,7 @@
                   </div>
 
                   <div class="ficha">
-                  <img src="<?= asset('assets/img/views/dron-boda.webp') ?>" alt="Dron grababando en la boda" title="Dron grababando en la boda">
+                  <img src="<?= asset('assets/img/views/dron-boda.webp') ?>" alt="Drone grabando imágenes aéreas durante una boda" title="Drone grabando imágenes aéreas durante una boda">
                   <div>
                       <h3>Drone</h3>
                       <p>La grabación aérea permite mostrar una perspectiva diferente del lugar de celebración y aportar imágenes espectaculares al vídeo final.</p>
@@ -226,28 +226,28 @@
 
         <article class="artGrid">
           <div>
-            <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="pareja en el castillo sesión">
+            <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en un castillo">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Sesión de pareja en el coche">
+            <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en un coche">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Sesion de vestido">
+            <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Detalles del vestido de novia durante una sesión fotográfica">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Novia corriendo por la playa sesion">
+            <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Novia caminando por la playa durante una sesión fotográfica">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="video de la boda">
+            <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Vídeo de boda durante la celebración de los novios">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-pareja-andando.webp') ?>" alt="Sesión de la pareja andando">
+            <img src="<?= asset('assets/img/views/img-pareja-andando.webp') ?>" alt="Pareja de novios caminando durante una sesión fotográfica">
           </div>
         </article>
 
     </section>
 
-    <section>
+    <section id="formulario">
             <!-- artForm02 ajax -->
             <article class="artForm02">          
 
@@ -261,8 +261,8 @@
                     <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
                     <div id="modal_envio">
                         <!-- nuestro modal con html y css -->
-                        <h3 id="h3_modal_envio">Matrix ipsum modal</h3>
-                        <p id="p_modal_envio">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
+                        <h3 id="h3_modal_envio">¡Mensaje enviado correctamente!</h3>
+                        <p id="p_modal_envio">Nos pondremos en contacto con vosotros lo antes posible.</p>
                         <div class="boton" id="boton_modal_envio">Escribir otra consulta</div>
                     </div>
 

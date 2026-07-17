@@ -37,6 +37,10 @@
           <img class="footer01__icon" src="<?= asset('assets/img/icons/mapa.svg') ?>" alt="">
           <span>Ver en Google Maps</span>
         </a>
+        <a class="footer01__link" href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github footer01__github"></i>
+          <span>GitHub</span>
+        </a>
         <p class="footer01__text">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/calle.svg') ?>" alt="">
           <span>Calle Ejemplo 1, 00000 Ciudad</span>

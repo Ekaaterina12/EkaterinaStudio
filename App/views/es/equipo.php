@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/quienes-somos') ?>">
-    <title>Quienes somos</title>
-    <meta name="description" content="Conoce al equipo de panaderos y pasteleros que trabaja cada dia en nuestro obrador.">
+    <title>Fotógrafos de bodas en Guipúzcoa | quienes somos</title>
+    <meta name="description" content="Quienes somos">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -15,16 +15,18 @@
 
     <?php require app_path('includes/es/nav.php'); ?>
 
-      <header class="header02">
+    <header class="header02">
         <img class="header02__media" src="<?= asset('assets/img/views/img2.webp') ?>" alt="Pareja sesión">
         <div class="header02__content">
           <h1 class="header02__title">Quienes somos</h1>
           <p class="header02__text">Nos dedicamos a la fotografía y vídeo de bodas con una filosofía basada en la cercanía, la naturalidad y el cuidado por cada detalle.</p>
-          <a href="#showroom-recursos" class="boton">Contactanos</a>
+          <a href="#formulario" class="boton">Contactanos</a>
         </div>
       </header>
 
-    <mian>
+      
+    
+    <main>
 
       <section>
           <!-- artículo 05 -->
@@ -37,55 +39,57 @@
               Conocemos la importancia del entorno y aprovechamos cada espacio para crear imágenes únicas, combinando la belleza de los escenarios con una fotografía cuidada y emocional.
             </p>
             
-            <a href="" class="boton">Escribenos</a>
+            <a href="#formulario" class="boton">Escribenos</a>
         </article>
       </section>
 
       <section>
           <!-- Artículo 11 -->
-          <article class="art11">
+        <h2>Historias que hemos contado</h2>
+            <article class="art11">
+
               
               <div>
-                  <img src="<?= asset('assets/img/views/img-beso.webp') ?>" alt="sesión de pareja beso">
+                  <img src="<?= asset('assets/img/views/img-beso.webp') ?>" alt="Pareja de novios besándose durante una sesión fotográfica">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="novia sesion en la playa">
+                  <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Novia durante una sesión de fotos en la playa">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Sesión en el castillo novios">
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en un castillo">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Pareja sesion">
+                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Pareja de novios durante una sesión fotográfica">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Sesión de fotos en el barco">
+                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Pareja de novios durante una sesión de fotos en un barco">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Sesión de fotos en el coche">
+                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Pareja de novios dentro de un coche durante la sesión fotográfica">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img2.webp') ?>" alt="Sesión de fotos ramo de flores">
+                  <img src="<?= asset('assets/img/views/img2.webp') ?>" alt="Ramo de flores de una novia durante una sesión fotográfica">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Sesion de fotos tocando el vestido">
+                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Novia mostrando los detalles de su vestido durante la sesión">
               </div>
 
           </article>
       </section>
 
-      <section>
-                <section>
-            <!-- artForm02 ajax -->
-            <article class="artForm02">          
+      
+      <section id="formulario">
+        <!-- artForm02 ajax -->
+        <article class="artForm02">          
 
-                <h2>Contacta con nosotros</h2>
+            <h2>Contacta con nosotros</h2>
                 <div>
                     <div class="contenedor-form">
                     
@@ -95,8 +99,8 @@
                     <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
                     <div id="modal_envio">
                         <!-- nuestro modal con html y css -->
-                        <h3 id="h3_modal_envio">Matrix ipsum modal</h3>
-                        <p id="p_modal_envio">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
+                        <h3 id="h3_modal_envio">¡Mensaje enviado correctamente!</h3>
+                        <p id="p_modal_envio">Nos pondremos en contacto con vosotros lo antes posible.</p>
                         <div class="boton" id="boton_modal_envio">Escribir otra consulta</div>
                     </div>
 
@@ -237,9 +241,9 @@
                 </div>
             </article>
         </section>
-      </section>
+      
 
-    </mian>
+    </main>
     
 
     <?php require app_path('includes/es/footer.php'); ?>

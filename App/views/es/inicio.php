@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
     <link rel="canonical" href="<?= url('/') ?>">
-    <title>KatyStudio</title>
-    <meta name="description" content="Panaderia y pasteleria artesana con panes, bolleria y productos recien hechos.">
+    <title>Fotógrafos de bodas en Guipúzcoa | Katy Studio</title>
+    <meta name="description" content="KatyStudio estudio de fotografia">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -20,7 +20,7 @@
         
         <h1>Fotógrafo de bodas en Guipúzcoa</h1>
         <p class="header01__text">Fotógrafos especializados en bodas, creando recuerdos naturales y emocionantes para que reviváis vuestro gran día una y otra vez.</p>
-        <a href="#showroom-recursos" class="boton">Cuéntanos vuestra historia</a>
+        <a href=" #formulario" class="boton">Cuéntanos vuestra historia</a>
       </div>
     </header>
 
@@ -35,25 +35,24 @@
                   <h2>Pasión por la fotografía de bodas</h2>
                   <p>Somos un equipo de fotógrafos especializados en bodas, apasionados por capturar la esencia de cada pareja y transformar momentos únicos en recuerdos que perduren para siempre. Entendemos la fotografía de boda como una forma de contar historias reales, donde cada mirada, cada emoción y cada pequeño detalle tienen un significado especial.</p>
 
-                  <p>Somos un equipo de fotógrafos especializados en bodas, apasionados por capturar la esencia de cada pareja y transformar momentos únicos en recuerdos que perduren para siempre. Entendemos la fotografía de boda como una forma de contar historias reales, donde cada mirada, cada emoción y cada pequeño detalle tienen un significado especial.</p>
+                  <p>Nuestro estilo se basa en la naturalidad y la espontaneidad, buscando reflejar cada instante tal y como sucede, sin artificios. Acompañamos a cada pareja con cercanía y discreción para que puedan disfrutar de su gran día mientras nosotros nos encargamos de inmortalizar los momentos más importantes y las emociones que harán de su historia un recuerdo inolvidable.</p>
 
                   <!-- <a href="" class="boton">Más info</a> -->
-                  <a href="" class="moduloBoton02">
+                  <a href="http://localhost:3000/es/quienes-somos" class="moduloBoton02">
                       <span>Saber más</span>
                       <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
                   </a>
               </div>
 
               <div class="imagenes">
-                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Escena de Matrix" title="">
-                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Escena de Matrix" title="">
-                  <img src="<?= asset('assets/img/views/img-vestido.webp') ?>" alt="Escena de Matrix" title="">
+                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Pareja de novios besándose durante una sesión fotográfica" title="Pareja de novios besándose durante una sesión fotográfica">
+                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Novios dentro de un coche clásico el día de su boda" title="Novios dentro de un coche clásico el día de su boda">
+                  <img src="<?= asset('assets/img/views/img-vestido.webp') ?>" alt="Vestido de novia colgado antes de la ceremonia" title="Vestido de novia colgado antes de la ceremonia">
               </div>
 
           </article>
 
         </section>
-
 
         <section>
             <article class="art09">
@@ -64,101 +63,100 @@
 
                   <div class="contenedor-lista">
                   <h3>Fotografía de bodas</h3>
-                  <ul>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Cobertura fotográfica completa de la boda.</span>
-                      </li>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Fotografías naturales y espontáneas.</span>
-                      </li>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Edición profesional de las imágenes.</span>
-                      </li>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Galería online privada.</span>
-                      </li>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Selección de fotografías en alta resolución.</span>
-                      </li>
-                  </ul>
-                  </div>
+                    <ul>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Cobertura fotográfica completa de la boda.</span>
+                        </li>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Fotografías naturales y espontáneas.</span>
+                        </li>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Edición profesional de las imágenes.</span>
+                        </li>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Galería online privada.</span>
+                        </li>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Selección de fotografías en alta resolución.</span>
+                        </li>
+                    </ul>
+                    </div>
 
-                  <div class="contenedor-lista">
-                  <h3>Vídeo de bodas</h3>
-                  <ul>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Grabación profesional del día completo.</span>
-                      </li>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Captura de momentos y emociones espontáneas.</span>
-                      </li>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Edición cinematográfica personalizada.</span>
-                      </li>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Música y montaje adaptados a vuestra historia.</span>
-                      </li>
-                      <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                      <span>Vídeo final en alta calidad.</span>
-                      </li>
-                  </ul>
-                  </div>
+                    <div class="contenedor-lista">
+                    <h3>Vídeo de bodas</h3>
+                    <ul>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Grabación profesional del día completo.</span>
+                        </li>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Captura de momentos y emociones espontáneas.</span>
+                        </li>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Edición cinematográfica personalizada.</span>
+                        </li>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Música y montaje adaptados a vuestra historia.</span>
+                        </li>
+                        <li>
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <span>Vídeo final en alta calidad.</span>
+                        </li>
+                    </ul>
+                    </div>
 
-              </div>
+                </div>
 
-          </article>
+            </article>
         </section>
 
         <section>
             <article class="art11">
               
               <div>
-                  <img src="<?= asset('assets/img/views/camara-fotos.webp') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/camara-fotos.webp') ?>" alt="Cámara fotográfica profesional">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Pareja durante una sesión preboda">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Novios junto a un castillo">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Pareja navegando en un barco">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Novios durante la celebración de su boda">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/sesion-fotos-espejo.webp') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/sesion-fotos-espejo.webp') ?>" alt="Novios reflejados en un espejo">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Pareja en un coche clásico">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Escena de Matrix">
+                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Vestido de novia preparado para la ceremonia">
               </div>
 
           </article>
         </section>
 
-
-        <section>
+        <section id="formulario">
             <!-- artForm02 ajax -->
             <article class="artForm02">          
 
@@ -172,8 +170,8 @@
                     <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
                     <div id="modal_envio">
                         <!-- nuestro modal con html y css -->
-                        <h3 id="h3_modal_envio">Matrix ipsum modal</h3>
-                        <p id="p_modal_envio">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
+                        <h3 id="h3_modal_envio">¡Mensaje enviado correctamente!</h3>
+                        <p id="p_modal_envio">Nos pondremos en contacto con vosotros lo antes posible.</p>
                         <div class="boton" id="boton_modal_envio">Escribir otra consulta</div>
                     </div>
 
