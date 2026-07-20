@@ -2,10 +2,10 @@
 <html lang="<?= e($lang ?? env('LANG_DEFAULT', 'es')) ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
+    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg.png') ?>">
     <link rel="canonical" href="<?= url('/productos') ?>">
     <title>Fotógrafos de bodas en Guipúzcoa | Nuestros servicios</title>
-    <meta name="description" content="Servicios de fotografía y vídeo de bodas en Guipúzcoa. Reportajes naturales, emotivos y personalizados.">
+    <meta name="description" content="Servicios de fotografía y vídeo de bodas en Guipúzcoa. En KatyStudio creamos reportajes naturales, emotivos y personalizados para conservar cada momento especial.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -14,12 +14,12 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header02">
-        <img class="header02__media" src="<?= asset('assets/img/views/img-iglesia.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en una iglesia">
+        <img class="header02__media" src="<?= asset('assets/img/views/img-iglesia.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en una iglesia" title="Pareja de novios durante una sesión fotográfica en una iglesia">
             <div class="header02__content">
             
             <h1 class="header02__title">Fotografía y vídeo de bodas en Guipúzcoa</h1>
             <p class="header02__text">Nuestros servicios de fotografía y vídeo de bodas están pensados para contar vuestra historia tal y como la vivís. Capturamos cada emoción, cada mirada y cada detalle de vuestro día con un estilo natural, cercano y profesional.</p>
-            <a href="#formulario" class="boton">Contáctanos</a>
+            <a href="#formulario" class="boton" title="Contáctanos">Contáctanos</a>
         </div>
     </header>
 
@@ -80,27 +80,27 @@
                   <h3>Sesión de fotografía</h3>
                   <ul>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Cobertura desde los preparativos hasta la celebración.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Reportaje fotográfico completo del día.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Captura de los momentos más importantes y de los pequeños detalles.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Entrega de las fotografías en alta resolución.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Álbum de boda y copias impresas (opcional).</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Precio total: 3.450€</span>
                       </li>
                   </ul>
@@ -110,31 +110,31 @@
                   <h3>Servicio de vídeo</h3>
                   <ul>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Cobertura completa de la boda.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Vídeo cinematográfico y natural.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Edición profesional.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Tráiler con los mejores momentos.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Película completa de la boda.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Entrega digital en alta calidad.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Precio total: 4.030€</span>
                       </li>
                   </ul>
@@ -144,27 +144,27 @@
                         <h3>Sesión de fotografía + vídeo</h3>
                     <ul>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Cobertura completa de fotografía y vídeo.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Captura de cada momento desde todos los ángulos.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Reportaje fotográfico y vídeo cinematográfico.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Edición profesional de fotografías y vídeo.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Galería privada online y entrega digital en alta resolución.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="icono circulo" title="icono circulo">
                       <span>Precio total: 6.590€</span>
                       </li>
                   </ul>
@@ -226,22 +226,22 @@
 
         <article class="artGrid">
           <div>
-            <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en un castillo">
+            <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en un castillo" title="Pareja de novios durante una sesión fotográfica en un castillo">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en un coche">
+            <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Pareja de novios durante una sesión fotográfica en un coche" title="Pareja de novios durante una sesión fotográfica en un coche">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Detalles del vestido de novia durante una sesión fotográfica">
+            <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Detalles del vestido de novia durante una sesión fotográfica" title="Detalles del vestido de novia durante una sesión fotográfica">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Novia caminando por la playa durante una sesión fotográfica">
+            <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Novia caminando por la playa durante una sesión fotográfica" title="Novia caminando por la playa durante una sesión fotográfica">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Vídeo de boda durante la celebración de los novios">
+            <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Vídeo de boda durante la celebración de los novios" title="Vídeo de boda durante la celebración de los novios">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-pareja-andando.webp') ?>" alt="Pareja de novios caminando durante una sesión fotográfica">
+            <img src="<?= asset('assets/img/views/img-pareja-andando.webp') ?>" alt="Pareja de novios caminando durante una sesión fotográfica" title="Pareja de novios caminando durante una sesión fotográfica">
           </div>
         </article>
 
@@ -255,7 +255,7 @@
                 <div>
                     <div class="contenedor-form">
                     
-                    <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="">
+                    <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="icono email" link="icono email">
                                     
 
                     <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
@@ -375,25 +375,25 @@
                     <ul>
                         <li>
                         <a href="tel:+34943123123" target="_blank">
-                            <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="icono telefono" title="icono telefono">
                             <span>943 123 123</span>
                         </a>
                         </li>
                         <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
-                            <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="icono email" title="icono email">
                             <span>KatyStudio@gmail.com</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://wa.me/628749350" target="_blank">
-                            <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="icono telefono" title="icono telefono">
                             <span>628 456 467</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
-                            <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="icono mapa" title="icono mapa">
                             <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                         </a>
                         </li>

@@ -2,10 +2,10 @@
 <html lang="<?= e($lang ?? env('LANG_DEFAULT', 'es')) ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
+    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg.png') ?>">
     <link rel="canonical" href="<?= url('/') ?>">
-    <title>Nuestra panaderia</title>
-    <meta name="description" content="Panaderia y pasteleria artesana con panes, bolleria y productos recien hechos.">
+    <title>Gipuzkoako ezkontza argazkilariak | Katy Studio</title>
+    <meta name="description" content="KatyStudio, ezkontza argazkilaritzan espezializatutako estudioa, zure egun handiko une paregabeak eta emozio ahaztezinak jasotzen dituena.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -14,12 +14,12 @@
     <?php require app_path('includes/eu/nav.php'); ?>
 
     <header class="header01">
-      <img class="header01__media" src="<?= asset('assets/img/views/img-blancoynegro.webp') ?>" alt="Bikote-argazki saioa">
+      <img class="header01__media" src="<?= asset('assets/img/views/img-blancoynegro.webp') ?>" alt="Bikote-argazki saioa" title="Bikote-argazki saioa">
       <div class="header01__content">
         
         <h1>Gipuzkoako ezkontza-argazkilaria</h1>
         <p class="header01__text">Ezkontzetan espezializatutako argazkilariak, oroitzapen natural eta emozionalak sortuz, zuen egun handia behin eta berriz bizitzeko aukera izan dezazuen.</p>
-        <a href=" #formulario" class="boton">Kontatu zuen istorioa</a>
+        <a href=" #formulario" class="boton" title="Kontatu zure istorioa">Kontatu zuen istorioa</a>
       </div>
     </header>
 
@@ -37,9 +37,9 @@
                   <p>Gure estiloa naturaltasunean eta espontaneotasunean oinarritzen da, une bakoitza gertatzen den bezala islatzea bilatuz, artifiziorik gabe. Bikote bakoitzari gertutasunez eta diskrezioz laguntzen diogu, euren egun handiaz gozatu ahal izan dezaten, gu, berriz, une garrantzitsuenak eta euren istorioa oroitzapen ahaztezin bihurtuko duten emozioak betikotzeaz arduratzen garen bitartean.</p>
 
                   <!-- <a href="" class="boton">Más info</a> -->
-                  <a href="http://localhost:3000/es/quienes-somos" class="moduloBoton02">
+                  <a href="http://localhost:3000/es/quienes-somos" class="moduloBoton02" title="Gehiago jakin">
                       <span>Gehiago jakin</span>
-                      <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="icon outline" title="icon outline">
                   </a>
               </div>
 
@@ -64,23 +64,23 @@
                   <h3>Ezkontza-argazkilaritza</h3>
                     <ul>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Ezkontzaren argazki-estaldura osoa.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Argazki natural eta espontaneoak.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Irudien edizio profesionala.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Online galeria pribatu.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Bereizmen handiko argazkien aukeraketa.</span>
                         </li>
                     </ul>
@@ -90,23 +90,23 @@
                     <h3>Ezkontza-bideoa</h3>
                     <ul>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Egun osoaren grabazio profesionala.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Une eta emozio espontaneoen grabaketa.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Edizio zinematografiko pertsonalizatua.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Zuen historiara egokitutako musika eta muntaketa.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu ikono" title="zirkulu ikono">
                         <span>Kalitate handiko amaierako bideoa.</span>
                         </li>
                     </ul>
@@ -121,35 +121,35 @@
             <article class="art11">
               
               <div>
-                  <img src="<?= asset('assets/img/views/camara-fotos.webp') ?>" alt="Argazki-kamera profesionala">
+                  <img src="<?= asset('assets/img/views/camara-fotos.webp') ?>" alt="Argazki-kamera profesionala" title="Argazki-kamera profesionala">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Bikotea ezkontza aurreko argazki-saio batean">
+                  <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Bikotea ezkontza aurreko argazki-saio batean" title="Bikotea ezkontza aurreko argazki-saio batean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Ezkonberriak gaztelu baten ondoan">
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Ezkonberriak gaztelu baten ondoan" title="Ezkonberriak gaztelu baten ondoan">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Bikotea itsasontzian nabigatzen">
+                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Bikotea itsasontzian nabigatzen" title="Bikotea itsasontzian nabigatzen">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Ezkonberriak euren ezkontzaren ospakizunean">
+                  <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Ezkonberriak euren ezkontzaren ospakizunean" title="Ezkonberriak euren ezkontzaren ospakizunean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/sesion-fotos-espejo.webp') ?>" alt="Ezkonberriak ispilu batean islatuta">
+                  <img src="<?= asset('assets/img/views/sesion-fotos-espejo.webp') ?>" alt="Ezkonberriak ispilu batean islatuta" title="Ezkonberriak ispilu batean islatuta">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Bikotea auto klasiko batean">
+                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Bikotea auto klasiko batean" title="Bikotea auto klasiko batean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Ezkontza-soinekoa zeremoniarako prestatuta">
+                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Ezkontza-soinekoa zeremoniarako prestatuta" title="Ezkontza-soinekoa zeremoniarako prestatuta">
               </div>
 
           </article>
@@ -170,7 +170,7 @@
                             <!-- nuestro modal con html y css -->
                             <h3 id="h3_modal_envio">Mezua behar bezala bidali da!</h3>
                             <p id="p_modal_envio">Zuekin harremanetan jarriko gara ahalik eta azkarren.</p>
-                            <div class="boton" id="boton_modal_envio">Beste kontsulta bat idatzi</div>
+                            <div class="boton" id="boton_modal_envio" title="Botoia">Beste kontsulta bat idatzi</div>
                         </div>
 
                         <form id="idForAjax" action="/app/artForm02" method="post">
@@ -282,25 +282,25 @@
                         <ul>
                             <li>
                             <a href="tel:+34943123123" target="_blank">
-                                <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="">
+                                <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="Telefono ikonoa" title="Telefono ikonoa">
                                 <span>943 123 123</span>
                             </a>
                             </li>
                             <li>
                             <a href="mailto:aranaz@webda.eus" target="_blank">
-                                <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
+                                <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="ikonoa email" title="ikonoa email">
                                 <span>KatyStudio@gmail.com</span>
                             </a>
                             </li>
                             <li>
                             <a href="https://wa.me/628749350" target="_blank">
-                                <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
+                                <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="Telefono ikonoa" title="Telefono ikonoa">
                                 <span>628 456 350</span>
                             </a>
                             </li>
                             <li>
                             <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
-                                <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
+                                <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="maps ikonoa" title="maps ikonoa">
                                 <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                             </a>
                             </li>

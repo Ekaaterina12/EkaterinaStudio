@@ -4,9 +4,9 @@
 ?>
 <nav class="nav01" data-nav01>
   <div class="nav01__inner">
-    <a class="nav01__brand" href="/es" aria-label="Ir al inicio">
+    <a class="nav01__brand" href="/es" aria-label="Ir al inicio" title="Ir al inicio">
       
-      <img src="../assets/img/icons/logo.webp" width="130px" alt="">
+      <img src="../assets/img/icons/logo.webp" width="130px" alt="logo de la página web" title="logo de la página web">
     
     </a>
 
@@ -27,8 +27,8 @@
 
         <div class="nav01__langs" aria-label="Idiomas">
           <!-- Para mantener el ejemplo sencillo, cada idioma enlaza a su inicio. -->
-          <a class="nav01__lang is-active" href="/es" lang="es" hreflang="es" aria-current="true">ES</a>
-          <a class="nav01__lang" href="/eu" lang="eu" hreflang="eu">EU</a>
+          <a class="nav01__lang is-active" href="/es" lang="es" hreflang="es" title="es" aria-current="true">ES</a>
+          <a class="nav01__lang" href="/eu" lang="eu" hreflang="eu" title="eu">EU</a>
         </div>
       </div>
     </div>

@@ -2,10 +2,10 @@
 <html lang="<?= e($lang ?? env('LANG_DEFAULT', 'es')) ?>">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
+    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg.png') ?>">
     <link rel="canonical" href="<?= url('/contacto') ?>">
     <title>Fotógrafos de bodas en Guipúzcoa | Contacta con nosotros</title>
-    <meta name="description" content="Contacta con nosotros">
+    <meta name="description" content="Contacta con KatyStudio, fotógrafos de bodas en Guipúzcoa. Cuéntanos vuestra historia y solicita información sobre nuestros servicios de fotografía.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -14,12 +14,12 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header02">
-        <img class="header02__media" src="<?= asset('assets/img/views/img-anillos.webp') ?>" alt="Sesion de fotos de anillos">
+        <img class="header02__media" src="<?= asset('assets/img/views/img-anillos.webp') ?>" alt="Sesion de fotos de anillos" title="Sesion de fotos de anillos">
             <div class="header02__content">
             
             <h1 class="header02__title">Contacto fotógrafo de bodas en Guipúzcoa</h1>
             <p class="header02__text">Si queréis conocer más detalles sobre nuestros servicios de fotografía y vídeo de bodas en Guipúzcoa, estaremos encantados de atenderos.</p>
-            <a href="#formulario" class="boton">Contactanos</a> 
+            <a href="#formulario" class="boton" title="Contacta con nosotros">Contactanos</a> 
         </div>
     </header>
 
@@ -83,7 +83,7 @@
             <h2>¿Hablamos de vuestra boda?</h2>
             <p class="espacial">Nuestro equipo estará encantado de escuchar vuestra historia, conocer cómo imagináis vuestro gran día y resolver cualquier duda que tengáis. Contadnos vuestra   propuesta, la fecha de la boda y todos esos detalles que hacen que vuestro día sea único. Nos pondremos en contacto con vosotros para comprobar la disponibilidad y empezar a preparar juntos un recuerdo inolvidable.</p>
             <p class="espacial">Creemos que la confianza y la cercanía son fundamentales para conseguir un reportaje auténtico, por eso queremos conoceros desde el primer momento y acompañaros durante todo el proceso. Estamos deseando formar parte de uno de los días más importantes de vuestra vida y convertir cada instante en un recuerdo que perdure para siempre.</p>
-            <a href="http://localhost:3000/es/servicios" class="boton">Ver todos los servicios</a>
+            <a href="http://localhost:3000/es/servicios" class="boton" title="Ver todos los servicios">Ver todos los servicios</a>
         </article>
 
     </section>
@@ -96,27 +96,27 @@
 
             <article class="artGrid">
             <div>
-                <img src="<?= asset('assets/img/views/img-anillos.webp') ?>" alt="Anillos de boda durante una sesión fotográfica">
+                <img src="<?= asset('assets/img/views/img-anillos.webp') ?>" alt="Anillos de boda durante una sesión fotográfica" title="Anillos de boda durante una sesión fotográfica">
             </div>
             <div>
-                <img src="<?= asset('assets/img/views/img2.webp') ?>" alt="Pareja de novios durante una sesión de fotos">
+                <img src="<?= asset('assets/img/views/img2.webp') ?>" alt="Pareja de novios durante una sesión de fotos" title="Pareja de novios durante una sesión de fotos">
             </div>
             <div>
-                <img src="<?= asset('assets/img/views/img-vestido.webp') ?>" alt="Vestido de novia preparado para la sesión fotográfica">
+                <img src="<?= asset('assets/img/views/img-vestido.webp') ?>" alt="Vestido de novia preparado para la sesión fotográfica" title="Vestido de novia preparado para la sesión fotográfica">
             </div>
             <div>
-                <img src="<?= asset('assets/img/views/img-blancoynegro2.webp') ?>" alt="Pareja de novios en una fotografía en blanco y negro">
+                <img src="<?= asset('assets/img/views/img-blancoynegro2.webp') ?>" alt="Pareja de novios en una fotografía en blanco y negro" title="Pareja de novios en una fotografía en blanco y negro">
             </div>
             <div>
-                <img src="<?= asset('assets/img/views/camara-fotos.webp') ?>" alt="Cámara fotográfica profesional">
+                <img src="<?= asset('assets/img/views/camara-fotos.webp') ?>" alt="Cámara fotográfica profesional" title="Cámara fotográfica profesional">
             </div>
             <div>
-                <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Pareja durante una sesión fotográfica de boda">
+                <img src="<?= asset('assets/img/views/img-sesion.webp') ?>" alt="Pareja durante una sesión fotográfica de boda" title="Pareja durante una sesión fotográfica de boda">
             </div>
             </article>
 
        
-      </section>
+    </section>
     
 
     
@@ -128,7 +128,7 @@
                 <div>
                     <div class="contenedor-form">
                     
-                    <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="">
+                    <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="icono email solid" title="icono email solid">
                                     
 
                     <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
@@ -248,25 +248,25 @@
                     <ul>
                         <li>
                         <a href="tel:+34943123123" target="_blank">
-                            <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="icono telefono" title="icono telefono">
                             <span>943 123 123</span>
                         </a>
                         </li>
                         <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
-                            <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="icono emial solid" title="icono emial solid">
                             <span>KatyStudio@gmail.com</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://wa.me/628749350" target="_blank">
-                            <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="icono telefono" title="icono telefono">
                             <span>628 456 350</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
-                            <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="icono mapa" title="icono mapa">
                             <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                         </a>
                         </li>

@@ -2,10 +2,10 @@
 <html lang="<?= e($lang ?? env('LANG_DEFAULT', 'es')) ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
+    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg.png') ?>">
     <link rel="canonical" href="<?= url('/zerbitzuak') ?>">
-    <title>Nuestros productos de panaderia y pasteleria</title>
-    <meta name="description" content="Descubre nuestros productos de panaderia, pasteleria, bolleria y especialidades artesanas.">
+    <title>Gipuzkoako ezkontza argazkilariak | Gure zerbitzuak</title>
+    <meta name="description" content="Gipuzkoako ezkontza argazkilaritza eta bideo zerbitzuak. KatyStudion erreportaje natural, hunkigarri eta pertsonalizatuak sortzen ditugu, une berezi bakoitza gordetzeko.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -15,12 +15,12 @@
     <?php require app_path('includes/eu/nav.php'); ?>
 
     <header class="header02">
-        <img class="header02__media" src="<?= asset('assets/img/views/img-iglesia.webp') ?>" alt="Bikote ezkonberria eliza batean egindako argazki-saio batean">
+        <img class="header02__media" src="<?= asset('assets/img/views/img-iglesia.webp') ?>" alt="Bikote ezkonberria eliza batean egindako argazki-saio batean" title="Bikote ezkonberria eliza batean egindako argazki-saio batean">
             <div class="header02__content">
             
             <h1 class="header02__title">Ezkontza-argazkilaritza eta bideoa Gipuzkoan</h1>
             <p class="header02__text">Gure ezkontza-argazkilaritza eta bideo zerbitzuak zuen istorioa bizi duzuen bezala kontatzeko pentsatuta daude. Zuen eguneko emozio, begirada eta xehetasun bakoitza estilo natural, gertuko eta profesional batekin jasotzen dugu.</p>
-            <a href="#formulario" class="boton">Jarri gurekin harremanetan</a>
+            <a href="#formulario" class="boton" title="botoia">Jarri gurekin harremanetan</a>
         </div>
     </header>
 
@@ -81,27 +81,27 @@
                   <h3>Argazki-saioa</h3>
                   <ul>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Prestaketetatik ospakizunera arteko estaldura.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Eguneko argazki-erreportaje osoa.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Une garrantzitsuenen eta xehetasun txikienen argazki-kaptura.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Argazkiak bereizmen handian entregatzea.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Ezkontza-albuma eta inprimatutako kopiak (aukeran).</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Guztizko prezioa: 3.450 €</span>
                       </li>
                   </ul>
@@ -111,31 +111,31 @@
                   <h3>Bideo-zerbitzua</h3>
                   <ul>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Ezkontzaren estaldura osoa.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Bideo zinematografiko eta naturala.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Edizio profesionala.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Une onenen trailerra.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Ezkontzaren film osoa.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Kalitate handiko entrega digitala.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Guztizko prezioa: 4.030 €</span>
                       </li>
                   </ul>
@@ -145,27 +145,27 @@
                         <h3>Sesión de fotografía + vídeo</h3>
                     <ul>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Argazki eta bideo estaldura osoa.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Une bakoitza angelu guztietatik jasota.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Argazki-erreportajea eta bideo zinematografikoa.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Argazkien eta bideoaren edizio profesionala.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Online galeria pribatua eta bereizmen handiko entrega digitala.</span>
                       </li>
                       <li>
-                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="zirkulu emojia" title="zirkulu emojia">
                       <span>Guztizko prezioa: 6.590 €</span>
                       </li>
                   </ul>
@@ -227,22 +227,22 @@
 
         <article class="artGrid">
           <div>
-            <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Gazte bikotea gaztelu batean egindako argazki-saio batean.">
+            <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Gazte bikotea gaztelu batean egindako argazki-saio batean." title="Gazte bikotea gaztelu batean egindako argazki-saio batean.">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Ezkonberrien bikotea auto batean egindako argazki-saio batean.">
+            <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Ezkonberrien bikotea auto batean egindako argazki-saio batean." title="Ezkonberrien bikotea auto batean egindako argazki-saio batean.">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Ezkontza-soinekoaren xehetasunak argazki-saio batean.">
+            <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Ezkontza-soinekoaren xehetasunak argazki-saio batean." title="Ezkontza-soinekoaren xehetasunak argazki-saio batean.">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Emaztegaia hondartzan paseatzen argazki-saio batean.">
+            <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Emaztegaia hondartzan paseatzen argazki-saio batean." title="Emaztegaia hondartzan paseatzen argazki-saio batean.">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Ezkonbikoteen ospakizuneko ezkontza-bideoa.">
+            <img src="<?= asset('assets/img/views/video-boda.webp') ?>" alt="Ezkonbikoteen ospakizuneko ezkontza-bideoa." title="Ezkonbikoteen ospakizuneko ezkontza-bideoa.">
           </div>
           <div>
-            <img src="<?= asset('assets/img/views/img-pareja-andando.webp') ?>" alt="Ezkonbikotea argazki-saio batean paseatzen.">
+            <img src="<?= asset('assets/img/views/img-pareja-andando.webp') ?>" alt="Ezkonbikotea argazki-saio batean paseatzen." title="Ezkonbikotea argazki-saio batean paseatzen.">
           </div>
         </article>
 
@@ -255,7 +255,7 @@
                 <div>
                     <div class="contenedor-form">
                     
-                    <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="">
+                    <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="ikonoa" alta="ikonoa">
                                     
 
                     <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
@@ -375,25 +375,25 @@
                     <ul>
                         <li>
                         <a href="tel:+34943123123" target="_blank">
-                            <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="Telefono ikonoa" title="Telefono ikonoa">
                             <span>943 123 123</span>
                         </a>
                         </li>
                         <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
-                            <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="ikonoa email" title="ikonoa email">
                             <span>KatyStudio@gmail.com</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://wa.me/628749350" target="_blank">
-                            <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="Telefono ikonoa" title="Telefono ikonoa">
                             <span>628 456 350</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
-                            <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="maps ikonoa" title="maps ikonoa">
                             <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                         </a>
                         </li>

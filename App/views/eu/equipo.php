@@ -2,10 +2,10 @@
 <html lang="<?= e($lang ?? env('LANG_DEFAULT', 'es')) ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
+    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg.png') ?>">
     <link rel="canonical" href="<?= url('/nortzuk-gara') ?>">
-    <title>Nuestro equipo de panaderos y pasteleros</title>
-    <meta name="description" content="Conoce al equipo de panaderos y pasteleros que trabaja cada dia en nuestro obrador.">
+    <title>Gipuzkoako ezkontza argazkilariak | Nor gara</title>
+    <meta name="description" content="KatyStudio, Gipuzkoako ezkontza argazkilariak, argazkilaritza natural eta emozionalean espezializatuak. Ezagutu gure taldea eta istorio paregabeak kontatzeko dugun modua.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= vite_tags($route['resources'] ?? null) ?>
@@ -15,11 +15,11 @@
     <?php require app_path('includes/eu/nav.php'); ?>
 
     <header class="header02">
-        <img class="header02__media" src="<?= asset('assets/img/views/img2.webp') ?>" alt="Pareja sesión">
+        <img class="header02__media" src="<?= asset('assets/img/views/img2.webp') ?>" alt="Bikote saioa" title="Bikote saioa">
         <div class="header02__content">
           <h1 class="header02__title">Nor gara</h1>
           <p class="header02__text">Argazkilaritzan eta ezkontzetako bideoan aritzen gara, gertutasunean, naturaltasunean eta xehetasun bakoitza zaintzean oinarritutako filosofia batekin.</p>
-          <a href="#formulario" class="boton">Jarri gurekin harremanetan</a>
+          <a href="#formulario" class="boton" title="Botoia">Jarri gurekin harremanetan</a>
         </div>
       </header>
 
@@ -36,7 +36,7 @@
               Inguruneak duen garrantzia ezagutzen dugu, eta espazio bakoitza aprobetxatzen dugu irudi paregabeak sortzeko, eszenatokien edertasuna argazkilaritza zaindu eta emozional batekin uztartuz.
             </p>
             
-            <a href="#formulario" class="boton">Idatz iezaguzu</a>
+            <a href="#formulario" class="boton" title="Botoia">Idatz iezaguzu</a>
         </article>
       </section>
 
@@ -47,35 +47,35 @@
 
               
               <div>
-                  <img src="<?= asset('assets/img/views/img-beso.webp') ?>" alt="Bikote ezkonberria elkarri musuka argazki-saio batean">
+                  <img src="<?= asset('assets/img/views/img-beso.webp') ?>" alt="Bikote ezkonberria elkarri musuka argazki-saio batean" title="Bikote ezkonberria elkarri musuka argazki-saio batean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Emaztegaia hondartzako argazki-saio batean">
+                  <img src="<?= asset('assets/img/views/img-playa-novia.webp') ?>" alt="Emaztegaia hondartzako argazki-saio batean" title="Emaztegaia hondartzako argazki-saio batean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Bikote ezkonberria gaztelu bateko argazki-saio batean">
+                  <img src="<?= asset('assets/img/views/img-castillo.webp') ?>" alt="Bikote ezkonberria gaztelu bateko argazki-saio batean" title="Bikote ezkonberria gaztelu bateko argazki-saio batean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Bikote ezkonberria argazki-saio batean">
+                  <img src="<?= asset('assets/img/views/img-pareja-1.webp') ?>" alt="Bikote ezkonberria argazki-saio batean" title="Bikote ezkonberria argazki-saio batean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Bikote ezkonberria itsasontzi bateko argazki-saio batean">
+                  <img src="<?= asset('assets/img/views/img-barco.webp') ?>" alt="Bikote ezkonberria itsasontzi bateko argazki-saio batean" title="Bikote ezkonberria itsasontzi bateko argazki-saio batean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Bikote ezkonberria auto baten barruan argazki-saioan zehar">
+                  <img src="<?= asset('assets/img/views/img-coche.webp') ?>" alt="Bikote ezkonberria auto baten barruan argazki-saioan zehar" title="Bikote ezkonberria auto baten barruan argazki-saioan zehar">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/img2.webp') ?>" alt="Emaztegaiaren lore-sorta argazki-saio batean">
+                  <img src="<?= asset('assets/img/views/img2.webp') ?>" alt="Emaztegaiaren lore-sorta argazki-saio batean" title="Emaztegaiaren lore-sorta argazki-saio batean">
               </div>
 
               <div>
-                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Emaztegaia bere soinekoaren xehetasunak erakusten argazki-saioan">
+                  <img src="<?= asset('assets/img/views/vestido.webp') ?>" alt="Emaztegaia bere soinekoaren xehetasunak erakusten argazki-saioan" title="Emaztegaia bere soinekoaren xehetasunak erakusten argazki-saioan">
               </div>
 
           </article>
@@ -90,7 +90,7 @@
                 <div>
                     <div class="contenedor-form">
                     
-                    <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="">
+                    <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="ikonoa" title="ikonoa">
                                     
 
                     <!-- MODAL QUE SALE CUANDO SE ENVÍA EL FORM CON ÉXITO -->
@@ -210,25 +210,25 @@
                     <ul>
                         <li>
                         <a href="tel:+34943123123" target="_blank">
-                            <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="ikonoa telefonoa" title="ikonoa telefonoa">
                             <span>943 123 123</span>
                         </a>
                         </li>
                         <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
-                            <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="ikonoa email" title="ikonoa email">
                             <span>KatyStudio@gmail.com</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://wa.me/628749350" target="_blank">
-                            <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="ikonoa telefonoa" title="ikonoa telefonoa">
                             <span>628 749 350</span>
                         </a>
                         </li>
                         <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
-                            <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
+                            <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="ikonoa maps" title="ikonoa maps">
                             <span>20018 Donostia / San Sebastián, Gipuzkoa</span>
                         </a>
                         </li>

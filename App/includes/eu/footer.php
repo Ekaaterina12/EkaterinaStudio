@@ -26,19 +26,19 @@
       <h2 class="footer01__title" id="footer01-contact-title-eu">Kontaktua</h2>
       <address class="footer01__address">
         <a class="footer01__link" href="tel:+34000000000">
-          <img class="footer01__icon" src="<?= asset('assets/img/icons/phone.svg') ?>" alt="">
+          <img class="footer01__icon" src="<?= asset('assets/img/icons/phone.svg') ?>" alt="Telefono ikonoa" title="Telefono ikonoa">
           <span>+34 943 564 867</span>
         </a>
         <a class="footer01__link" href="mailto:hola@ejemplo.com">
-          <img class="footer01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="">
+          <img class="footer01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="Posta elektronikoaren ikonoa" title="Posta elektronikoaren ikonoa">
           <span>KatyStudio@gmail.com</span>
         </a>
         <a class="footer01__link" href="https://www.google.com/maps/search/?api=1&query=Calle+Ejemplo+1" target="_blank" rel="noopener noreferrer">
-          <img class="footer01__icon" src="<?= asset('assets/img/icons/map.svg') ?>" alt="">
+          <img class="footer01__icon" src="<?= asset('assets/img/icons/map.svg') ?>" alt="Google Maps ikonoa" title="Google Maps ikonoa">
           <span>Ikusi Google Mapsen</span>
         </a>
         <p class="footer01__text">
-          <img class="footer01__icon" src="<?= asset('assets/img/icons/pin.svg') ?>" alt="">
+          <img class="footer01__icon" src="<?= asset('assets/img/icons/pin.svg') ?>" alt="Maps ikonoa" title="Maps ikonoa" >
           <span>Calle Ejemplo 1, 00000 Ciudad</span>
         </p>
       </address>
