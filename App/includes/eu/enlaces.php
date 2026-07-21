@@ -29,7 +29,7 @@
   <li class="enlaces01__item enlaces01__item--hasSubmenu" data-nav01-submenu-item>
     <div class="enlaces01__submenuHeader">
       <a class="enlaces01__link enlaces01__link--parent" href="/eu/zerbitzuak">
-        <img class="enlaces01__icon" src="<?= asset('assets/img/icons/design-services-outline.svg') ?>" alt="Zerbitzuak ikonoa">
+        <img class="enlaces01__icon" src="<?= asset('assets/img/icons/design-services-outline.svg') ?>" alt="Zerbitzuak ikonoa" title="Zerbitzuak ikonoa">
         <span>Zerbitzuak</span>
       </a>
       

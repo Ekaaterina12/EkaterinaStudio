@@ -37,6 +37,10 @@
           <img class="footer01__icon" src="<?= asset('assets/img/icons/map.svg') ?>" alt="Google Maps ikonoa" title="Google Maps ikonoa">
           <span>Ikusi Google Mapsen</span>
         </a>
+        <a class="footer01__link" href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" alt="hitHub" title="GitHub">
+          <i class="fa-brands fa-github footer01__github"></i>
+          <span>GitHub</span>
+        </a>
         <p class="footer01__text">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/pin.svg') ?>" alt="Maps ikonoa" title="Maps ikonoa" >
           <span>Calle Ejemplo 1, 00000 Ciudad</span>
