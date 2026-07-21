@@ -127,19 +127,19 @@
                             <li>
                             <a href="tel:+34943123123" target="_blank">
                                 <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="Telefono ikonoa" title="Telefono ikonoa">
-                                <span>943 123 123</span>
+                                <span>943 345 678</span>
                             </a>
                             </li>
                             <li>
                             <a href="mailto:aranaz@webda.eus" target="_blank">
                                 <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="ikonoa email" title="ikonoa email">
-                                <span>KatyStudio@gmail.com</span>
+                                <span>Ekaterinagoncharova66@gmail.com</span>
                             </a>
                             </li>
                             <li>
                             <a href="https://wa.me/628749350" target="_blank">
                                 <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="Telefono ikonoa" title="Telefono ikonoa">
-                                <span>628 456 350</span>
+                                <span>600 976 283</span>
                             </a>
                             </li>
                             <li>

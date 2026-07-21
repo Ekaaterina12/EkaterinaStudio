@@ -39,7 +39,7 @@
                   <p>Nuestro estilo se basa en la naturalidad y la espontaneidad, buscando reflejar cada instante tal y como sucede, sin artificios. Acompañamos a cada pareja con cercanía y discreción para que puedan disfrutar de su gran día mientras nosotros nos encargamos de inmortalizar los momentos más importantes y las emociones que harán de su historia un recuerdo inolvidable.</p>
 
                   <!-- <a href="" class="boton">Más info</a> -->
-                  <a href="http://localhost:3000/es/quienes-somos" class="moduloBoton02" title="Saber más">
+                  <a href="https://cw-katy.webda.eus/es/quienes-somos" class="moduloBoton02" title="Saber más">
                       <span>Saber más</span>
                       <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="icono outline" title="icono outline">
                   </a>
