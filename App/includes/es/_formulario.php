@@ -1,5 +1,5 @@
-
-
+<?php
+?>
  <section id="formulario">
             <!-- artForm02 ajax -->
             <article class="artForm02">          

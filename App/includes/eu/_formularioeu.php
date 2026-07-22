@@ -1,4 +1,5 @@
-
+<?php
+?>
 <section id="formulario">
             <article class="artForm02">          
 
