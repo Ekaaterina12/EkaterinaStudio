@@ -6,7 +6,7 @@
   <div class="nav01__inner">
     <a class="nav01__brand" href="<?= url('/eu') ?>" aria-label="Hasierara joan">
       
-      <img src="../assets/img/icons/logo.webp" width="130px" alt="Logotipo ikonoa" title="Logotipo ikonoa">
+      <img src="<?= asset('assets/img/icons/logo.webp') ?>" width="130px" alt="Logotipo ikonoa" title="Logotipo ikonoa">
     </a>
 
     <button class="nav01__toggle" type="button" aria-controls="nav01-menu-eu" aria-expanded="false" aria-label="Menua ireki" data-nav01-toggle data-nav01-label-open="Menua ireki" data-nav01-label-close="Menua itxi">

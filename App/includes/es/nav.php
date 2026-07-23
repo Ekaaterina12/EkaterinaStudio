@@ -6,7 +6,7 @@
   <div class="nav01__inner">
     <a class="nav01__brand" href="<?= url('/es') ?>" aria-label="Ir al inicio" title="Ir al inicio">
       
-      <img src="../assets/img/icons/logo.webp" width="130px" alt="logo de la página web" title="logo de la página web">
+      <img src="<?= asset('assets/img/icons/logo.webp') ?>" width="130px" alt="logo de la página web" title="logo de la página web">
     
     </a>
 
