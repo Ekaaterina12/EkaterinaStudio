@@ -5,21 +5,21 @@
 ?>
 <ul class="enlaces01">
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu">
+    <a class="enlaces01__link" href="<?= url('/eu') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/home2.svg') ?>" alt="Etxe ikonoa" title="Etxe ikonoa">
       <span>Hasiera</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu/kontaktua">
+    <a class="enlaces01__link" href="<?= url('/eu/kontaktua') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/email.svg') ?>" alt="Kontakturako ikonoa" title="Kontakturako ikonoa">
       <span>Kontaktua</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu/nortzuk-gara">
+    <a class="enlaces01__link" href="<?= url('/eu/nortzuk-gara') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/team-outlined.svg') ?>" alt="Nortzuk gara ikonoa" title="Nortzuk gara">
       <span>Nortzuk gara</span>
     </a>
@@ -28,7 +28,7 @@
   <!-- Este item contiene un segundo nivel de navegación. -->
   <li class="enlaces01__item enlaces01__item--hasSubmenu" data-nav01-submenu-item>
     <div class="enlaces01__submenuHeader">
-      <a class="enlaces01__link enlaces01__link--parent" href="/eu/zerbitzuak">
+      <a class="enlaces01__link enlaces01__link--parent" href="<?= url('/eu/zerbitzuak') ?>">
         <img class="enlaces01__icon" src="<?= asset('assets/img/icons/design-services-outline.svg') ?>" alt="Zerbitzuak ikonoa" title="Zerbitzuak ikonoa">
         <span>Zerbitzuak</span>
       </a>
@@ -37,7 +37,7 @@
 
 
   <!-- <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/showroom">
+    <a class="enlaces01__link" href="<?= url('/showroom') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/grid.svg') ?>" alt="">
       <span>Showroom</span>
     </a>

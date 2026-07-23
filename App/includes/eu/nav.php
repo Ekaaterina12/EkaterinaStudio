@@ -4,7 +4,7 @@
 ?>
 <nav class="nav01" data-nav01>
   <div class="nav01__inner">
-    <a class="nav01__brand" href="/eu" aria-label="Hasierara joan">
+    <a class="nav01__brand" href="<?= url('/eu') ?>" aria-label="Hasierara joan">
       
       <img src="../assets/img/icons/logo.webp" width="130px" alt="Logotipo ikonoa" title="Logotipo ikonoa">
     </a>
@@ -26,9 +26,9 @@
 
         <div class="nav01__langs" aria-label="Hizkuntzak">
           <!-- Para mantener el ejemplo sencillo, cada idioma enlaza a su inicio. -->
-          <a class="nav01__lang" href="<?= e(ruta_homologa($url ?? null, 'es')) ?>" lang="es" hreflang="es" title="Ver esta página en castellano">ES</a>
+          <a class="nav01__lang" href="<?= url(ruta_homologa($url ?? null, 'es')) ?>" lang="es" hreflang="es" title="Ver esta página en castellano">ES</a>
 
-          <a class="nav01__lang is-active" href="<?= e(ruta_homologa($url ?? null, 'eu')) ?>" lang="eu" hreflang="eu" aria-current="true" title="Ikusi orri hau euskaraz">EU</a>
+          <a class="nav01__lang is-active" href="<?= url(ruta_homologa($url ?? null, 'eu')) ?>" lang="eu" hreflang="eu" aria-current="true" title="Ikusi orri hau euskaraz">EU</a>
           
         </div>
       </div>

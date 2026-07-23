@@ -34,7 +34,7 @@
         de ayudarte.
       </p>
 
-      <a href="/" class="boton">Volver al inicio</a>
+      <a href="<?= url('/') ?>" class="boton">Volver al inicio</a>
     </section>
 
     <?php require app_path('includes/es/footer.php'); ?>
