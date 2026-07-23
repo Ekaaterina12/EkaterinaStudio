@@ -1,2 +1,14 @@
 @use 'config'  as c;
+@use "./resources/global";
+
+
+.error-404 {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.error-404 h1 {
+    font-size: 60px;
+    color: rgb(177, 159, 159);
+}
 

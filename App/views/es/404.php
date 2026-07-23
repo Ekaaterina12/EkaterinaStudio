@@ -12,6 +12,30 @@
   </head>
   <body>
     <?php require app_path('includes/es/nav.php'); ?>
+
+    <section class="error-404">
+      <h1>Error 404</h1>
+      <h2>Página no encontrada</h2>
+
+      <p>
+        Lo sentimos, la página legal que estás buscando no existe, ha sido
+        movida o la dirección introducida es incorrecta.
+      </p>
+
+      <p>
+        Puedes volver a la página anterior, acceder a la página de inicio o
+        consultar nuestras secciones legales desde el menú principal.
+      </p>
+
+      <p>
+        Si crees que se trata de un error o necesitas acceder a un documento
+        legal específico, ponte en contacto con nosotros y estaremos encantados
+        de ayudarte.
+      </p>
+
+      <a href="/" class="boton">Volver al inicio</a>
+    </section>
+
     <?php require app_path('includes/es/footer.php'); ?>
 </body>
 </html>
