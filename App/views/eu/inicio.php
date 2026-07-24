@@ -20,7 +20,7 @@
         
         <h1>Gipuzkoako ezkontza-argazkilaria</h1>
         <p class="header01__text">Ezkontzetan espezializatutako argazkilariak, oroitzapen natural eta emozionalak sortuz, zuen egun handia behin eta berriz bizitzeko aukera izan dezazuen.</p>
-        <a href=" #formulario" class="boton" title="Kontatu zure istorioa">Kontatu zuen istorioa</a>
+        <a href=" #hitoForm" class="boton" title="Kontatu zure istorioa">Kontatu zuen istorioa</a>
       </div>
     </header>
 
@@ -155,6 +155,8 @@
 
           </article>
         </section>
+
+        <div class="fantasma" id="hitoForm"></div>
 
         <?php require app_path('includes/eu/_formularioeu.php'); ?>
         

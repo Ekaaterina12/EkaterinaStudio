@@ -21,7 +21,7 @@
         <div class="header02__content">
           <h1 class="header02__title">Quienes somos</h1>
           <p class="header02__text">Nos dedicamos a la fotografía y vídeo de bodas con una filosofía basada en la cercanía, la naturalidad y el cuidado por cada detalle.</p>
-          <a href="#formulario" class="boton" title="Contactanos">Contactanos</a>
+          <a href="#hitoForm" class="boton" title="Contactanos">Contactanos</a>
         </div>
       </header>
 
@@ -85,7 +85,8 @@
           </article>
       </section>
 
-      
+      <div class="fantasma" id="hitoForm"></div>
+
       <?php require app_path('includes/es/_formulario.php'); ?>
       
     </main>

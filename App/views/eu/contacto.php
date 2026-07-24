@@ -20,7 +20,7 @@
             
             <h1 class="header02__title">Gipuzkoako ezkontza-argazkilariaren kontaktua</h1>
             <p class="header02__text">Gipuzkoako ezkontza-argazkilaritza eta bideo zerbitzuei buruzko xehetasun gehiago ezagutu nahi badituzue, pozik egongo gara zuei erantzuten.</p>
-            <a href="#formulario" class="boton" title="Botoia">Jarri gurekin harremanetan</a> 
+            <a href="#hitoForm" class="boton" title="Botoia">Jarri gurekin harremanetan</a> 
         </div>
     </header>
 
@@ -119,7 +119,8 @@
        
     </section>
     
-
+    <div class="fantasma" id="hitoForm"></div>
+    
     <?php require app_path('includes/eu/_formularioeu.php'); ?>
 
     </main>

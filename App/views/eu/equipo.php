@@ -20,7 +20,7 @@
         <div class="header02__content">
           <h1 class="header02__title">Nor gara</h1>
           <p class="header02__text">Argazkilaritzan eta ezkontzetako bideoan aritzen gara, gertutasunean, naturaltasunean eta xehetasun bakoitza zaintzean oinarritutako filosofia batekin.</p>
-          <a href="#formulario" class="boton" title="Botoia">Jarri gurekin harremanetan</a>
+          <a href="#hitoForm" class="boton" title="Botoia">Jarri gurekin harremanetan</a>
         </div>
       </header>
 
@@ -81,6 +81,8 @@
 
           </article>
       </section>
+
+      <div class="fantasma" id="hitoForm"></div>
 
       <?php require app_path('includes/eu/_formularioeu.php'); ?>
 

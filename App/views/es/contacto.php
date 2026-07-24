@@ -20,7 +20,7 @@
             
             <h1 class="header02__title">Contacto fotógrafo de bodas en Guipúzcoa</h1>
             <p class="header02__text">Si queréis conocer más detalles sobre nuestros servicios de fotografía y vídeo de bodas en Guipúzcoa, estaremos encantados de atenderos.</p>
-            <a href="#formulario" class="boton" title="Contacta con nosotros">Contactanos</a> 
+            <a href="#hitoForm" class="boton" title="Contacta con nosotros">Contactanos</a> 
         </div>
     </header>
 
@@ -119,6 +119,8 @@
        
     </section>
     
+    <div class="fantasma" id="hitoForm"></div>
+
     <?php require app_path('includes/es/_formulario.php'); ?>
     
     </main>

@@ -20,7 +20,7 @@
             
             <h1 class="header02__title">Fotografía y vídeo de bodas en Guipúzcoa</h1>
             <p class="header02__text">Nuestros servicios de fotografía y vídeo de bodas están pensados para contar vuestra historia tal y como la vivís. Capturamos cada emoción, cada mirada y cada detalle de vuestro día con un estilo natural, cercano y profesional.</p>
-            <a href="#formulario" class="boton" title="Contáctanos">Contáctanos</a>
+            <a href="#hitoForm" class="boton" title="Contáctanos">Contáctanos</a>
         </div>
     </header>
 
@@ -247,6 +247,8 @@
         </article>
 
     </section>
+
+    <div class="fantasma" id="hitoForm"></div>
 
     <?php require app_path('includes/es/_formulario.php'); ?>
     

@@ -22,7 +22,7 @@
         
         <h1>Fotógrafo de bodas en Guipúzcoa</h1>
         <p class="header01__text">Fotógrafos especializados en bodas, creando recuerdos naturales y emocionantes para que reviváis vuestro gran día una y otra vez.</p>
-        <a href=" #formulario" class="boton" title="Cuéntanos vuestra historia">Cuéntanos vuestra historia</a>
+        <a href="#hitoForm" class="boton" title="Cuéntanos vuestra historia">Cuéntanos vuestra historia</a>
       </div>
     </header>
 
@@ -157,6 +157,8 @@
 
           </article>
         </section>
+
+        <div class="fantasma" id="hitoForm"></div>
 
         <?php require app_path('includes/es/_formulario.php'); ?>
 

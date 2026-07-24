@@ -192,6 +192,13 @@ a{
     }
 }
 
+.fantasma{
+    height: 6rem;
+    @media only screen and (min-width:$tablet){
+        height: 4rem;
+    }
+}
+
 
 
 // Estilos básicos de etiquetas principales

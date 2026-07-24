@@ -21,7 +21,7 @@
             
             <h1 class="header02__title">Ezkontza-argazkilaritza eta bideoa Gipuzkoan</h1>
             <p class="header02__text">Gure ezkontza-argazkilaritza eta bideo zerbitzuak zuen istorioa bizi duzuen bezala kontatzeko pentsatuta daude. Zuen eguneko emozio, begirada eta xehetasun bakoitza estilo natural, gertuko eta profesional batekin jasotzen dugu.</p>
-            <a href="#formulario" class="boton" title="botoia">Jarri gurekin harremanetan</a>
+            <a href="#hitoForm" class="boton" title="botoia">Jarri gurekin harremanetan</a>
         </div>
     </header>
 
@@ -248,6 +248,8 @@
         </article>
 
     </section>
+
+    <div class="fantasma" id="hitoForm"></div>
 
    <?php require app_path('includes/eu/_formularioeu.php'); ?>
     
